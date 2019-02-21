@@ -45,27 +45,27 @@ app.get("/age/:characterName", (req, res) => {
   res.json({ characterAge });
 });
 
-app.get("/characternameinfo/:hairColor", (req, res) => {
-  const hairColor = req.params.hairColor;
-  let hair = library.getCharacterHair(hair);
+app.get("/haircolor/:characterName", (req, res) => {
+  const name = req.params.characterName;
+  let hair = library.getCharacterHair(name);
   res.json({ hair });
 });
 
-app.get("/characternameinfo/:occupation", (req, res) => {
-  const occupation = req.params.occupation;
-  let characterOccupation = library.getCharacterOccupation(occupation);
+app.get("/occupation/:characterName", (req, res) => {
+  const name = req.params.characterName;
+  let characterOccupation = library.getCharacterOccupation(name);
   res.json({ characterOccupation });
 });
 
-app.get("/characternameinfo/:grade", (req, res) => {
-  const grade = req.params.grade;
-  let characterGrade = library.getCharacterGrade(grade);
-  res.json({ getCharacterGrade });
+app.get("/grade/:characterName", (req, res) => {
+  const name = req.params.characterName;
+  let characterGrade = library.getCharacterGrade(name);
+  res.json({ characterGrade });
 });
 
-app.get("/characternameinfo/:image", (req, res) => {
-  const imageName = req.params.image;
-  let characterImage = library.getCharacterImage(imageName);
+app.get("/image/:characterName", (req, res) => {
+  const name = req.params.characterName;
+  let characterImage = library.getCharacterImage(name);
   res.json({ characterImage });
 });
 

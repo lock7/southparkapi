@@ -6,7 +6,7 @@
 Oh, and Kenny is killed in many episodes.</H3></p><br>
 
 <H4><p><b>How to use the API</b></p><H4>
-<H5><p>In your JSON request use the following URL:<br>
+<H5><p>In your JSON request use the following URL(IP Address): 192.168.0.67:4000<br>
  An example of the returned JSON below:</p>
   <p> <b>"stan": </b><br>
   [{ <br>
