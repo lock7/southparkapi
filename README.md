@@ -19,8 +19,8 @@ Oh, and Kenny is killed in many episodes.</H3></p><br>
 <br>/image/:characterName
 <br>
    
-CHARACTER NAMES ARE CASE SENSITIVE
-
+<b>CHARACTER NAMES ARE CASE SENSITIVE</b>
+<br>
 [{ <br>
 
  <p> <b>"stan": </b><br>
