@@ -1,19 +1,24 @@
 {
-  "name": "southparkapi",
-  "version": "1.0.0",
-  "description": "all about southpark characters",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lock7/southparkapi.git"
-  },
-  "author": "brendan bukola kathryn liam",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lock7/southparkapi/issues"
-  },
-  "homepage": "https://github.com/lock7/southparkapi#readme"
+    "name": "southparkapi",
+    "version": "1.0.0",
+    "description": "all about southpark characters",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lock7/southparkapi.git"
+    },
+    "author": "brendan bukola kathryn liam",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/lock7/southparkapi/issues"
+    },
+    "homepage": "https://github.com/lock7/southparkapi#readme",
+    "dependencies": {
+        "express": "^4.16.4",
+        "nodemon": "^1.18.10"
+    }
 }
