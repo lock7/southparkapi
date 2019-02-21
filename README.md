@@ -9,18 +9,26 @@ Oh, and Kenny is killed in many episodes.</H3></p><br>
 <H4><p><b>How to use the API</b></p><H4>
 <H5><p>In your JSON request use the following URL(IP Address): 192.168.0.67:4000<br>
  An example of the returned JSON below:</p>
-
-
+<br>
+<br>All routes: 
+<br>/name/:characterName
+<br>/gender/:characterName
+<br>/haircolor/:characterName
+<br>/occupation/:characterName
+<br>/grade/:characterName
+<br>/image/:characterName
+<br>
+   
 CHARACTER NAMES ARE CASE SENSITIVE
 
 [{ <br>
 
  <p> <b>"stan": </b><br>
-   "Name": "Stanley Marsh", /name/:characterName<br>
-   "Gender": "Male", /gender/:characterName<br>
+   "Name": "Stanley Marsh",<br>
+   "Gender": "Male", <br>
    "Age": 10, /age/:characterName <br>
-   "HairColor": "Black", /haircolor/:characterName <br>
-   "Occupation": "Student", /occupation/:characterName<br>
-   "Grade": "4th Grade",  /grade/:characterName<br>
-   "Image": ""          /image/:characterName<br>}]
+   "HairColor": "Black",  <br>
+   "Occupation": "Student", <br>
+   "Grade": "4th Grade",  <br>
+   "Image": ""       <br>}]
  </p></H5>
