@@ -1,64 +1,92 @@
 const characters = {
   Stan: {
-    Name: "Stanley Marsh",
-    Gender: "Male",
-    Age: 10,
-    HairColor: "Black",
-    Occupation: "Student",
-    Grade: "4th Grade",
-    Image:
+    name: "Stanley Marsh",
+    gender: "Male",
+    age: 10,
+    hairColor: "Black",
+    occupation: "Student",
+    grade: "4th Grade",
+    image:
       "http://southparkstudios.mtvnimages.com/shared/characters/kids/stan-marsh.png"
   },
   Kyle: {
-    Name: "Kyle Broflovski",
-    Gender: "Male",
-    Age: 10,
-    HairColor: "red/aubrn",
-    Occupation: "Student",
-    Grade: "4th Grade",
-    Image:
+    name: "Kyle Broflovski",
+    gender: "Male",
+    age: 10,
+    hairColor: "red/aubrn",
+    occupation: "Student",
+    grade: "4th Grade",
+    image:
       "http://southparkstudios.mtvnimages.com/shared/characters/kids/kyle-broflovski.png"
   },
   Cartman: {
-    Name: "Eric Cartman",
-    Gender: "Male",
-    Age: 10,
-    HairColor: "Brown",
-    Occupation: "Student",
-    Grade: "4th Grade",
-    Image:
+    name: "Eric Cartman",
+    gender: "Male",
+    age: 10,
+    hairColor: "Brown",
+    occupation: "Student",
+    grade: "4th Grade",
+    image:
       "http://southparkstudios.mtvnimages.com/shared/characters/kids/eric-cartman.png"
   },
   Kenny: {
-    Name: "Kenneth McCormick",
-    Gender: "Male",
-    Age: 10,
-    HairColor: "Blonde",
-    Occupation: "Student",
-    Grade: "4th Grade",
-    Image:
+    name: "Kenneth McCormick",
+    gender: "Male",
+    age: 10,
+    hairColor: "Blonde",
+    occupation: "Student",
+    grade: "4th Grade",
+    image:
       "http://southparkstudios.mtvnimages.com/shared/characters/kids/kenny-mccormick.png"
   },
   Chef: {
-    Name: "Jerome McElroy",
-    Gender: "Male",
-    HairColor: "Black",
-    Occupation: "Chef",
-    Image:
+    name: "Jerome McElroy",
+    gender: "Male",
+    hairColor: "Black",
+    occupation: "Chef",
+    image:
       "http://southparkstudios.mtvnimages.com/shared/characters/adults/chef.png"
   },
   MrHankey: {
-    Name: "Mr. Hankey, the Christmas Poo",
-    Gender: "Male",
-    HairColor: "Black",
-    Occupation:
+    name: "Mr. Hankey, the Christmas Poo",
+    gender: "Male",
+    hairColor: "Black",
+    occupation:
       "Christmas Spirit and Mascot; Director of the Annual Christmas Pageant",
-    Image:
+    image:
       "https://vignette.wikia.nocookie.net/scratchpad/images/a/a1/Mr_Hankey_transparent.png/revision/latest?cb=20180617125412"
+  },
+  Towelie: {
+    name: "Towelie",
+    age: "17 towel years",
+    gender: "Male",
+    occupation: "Resident high towel",
+    image:
+      "http://southparkstudios.mtvnimages.com/shared/characters/non-human/towelie.png"
+  },
+  Jimmy: {
+    name: "Jimmy Valmer",
+    gender: "Male",
+    age: 10,
+    hairColor: "Black",
+    occupation: "Student, Comedian, Journalist, Ad Blocker",
+    grade: "4th Grade",
+    image:
+      "http://southparkstudios.mtvnimages.com/shared/characters/kids/jimmy-valmer.png"
+  },
+  Butters: {
+    name: "Leopold Butters Scotch",
+    gender: "Male",
+    age: 10,
+    hairColor: "Blonde",
+    occupation: "Student",
+    grade: "4th Grade",
+    image:
+      "http://southparkstudios.mtvnimages.com/shared/characters/kids/butters-stotch.png"
   }
 };
 
-const allCharacters = characters => {
+const allCharacters = () => {
   return characters;
 };
 const getCharacterName = name => {
