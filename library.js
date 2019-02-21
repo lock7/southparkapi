@@ -88,7 +88,7 @@ module.exports = {
   getCharacterName: getCharacterName,
   getCharacterGender: getCharacterGender,
   getCharacterAge: getCharacterAge,
-  getcharacterHair: getCharacterHair,
+  getCharacterHair: getCharacterHair,
   getCharacterOccupation: getCharacterOccupation,
   getCharacterGrade: getCharacterGrade,
   getCharacterImage: getCharacterImage
