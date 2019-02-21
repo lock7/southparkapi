@@ -5,7 +5,7 @@
 <H3>The animated series of 297 episodes is not for children. In fact, its goal seems to be to offend as many as possible as it presents the adventures of Stan, Kyle, Kenny and Cartman. The show has taken on Saddam Hussein, Osama bin Laden, politicians of every stripe and self-important celebrities. 
 Oh, and Kenny is killed in many episodes.</H3></p>
 <H4><p><b>How to use the API</b></p><H4>
-<H5><p>In your JSON request use the following URL(IP Address): 190.168.0.67:4000<br>
+<H5><p>In your JSON request use the following URL(IP Address): 192.168.0.67:4000<br>
  An example of the returned JSON below:</p>
   <p> <b>"stan": </b><br>
   [{ <br>
