@@ -4,6 +4,7 @@
   "description": "all about southpark characters",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/lock7/southparkapi/issues"
   },
-  "homepage": "https://github.com/lock7/southparkapi#readme"
+  "homepage": "https://github.com/lock7/southparkapi#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
 }

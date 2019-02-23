@@ -89,26 +89,26 @@ const characters = {
 const allCharacters = () => {
   return characters;
 };
-const getCharacterName = name => {
-  return characters[name].Name;
+const getCharacterName = characterName => {
+  return characters[characterName].name;
 };
 const getCharacterGender = name => {
-  return characters[name].Gender;
+  return characters[name].gender;
 };
 const getCharacterAge = name => {
-  return characters[name].Age;
+  return characters[name].age;
 };
 const getCharacterHair = name => {
-  return characters[name].HairColor;
+  return characters[name].hairColor;
 };
 const getCharacterOccupation = name => {
-  return characters[name].Occupation;
+  return characters[name].occupation;
 };
 const getCharacterGrade = name => {
-  return characters[name].Grade;
+  return characters[name].grade;
 };
 const getCharacterImage = name => {
-  return characters[name].Image;
+  return characters[name].image;
 };
 
 module.exports = {

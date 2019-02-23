@@ -1,5 +1,5 @@
 const express = require("express");
-const fs = require("fs");
+//const fs = require("fs");
 
 const bodyParser = require("body-parser");
 const library = require("./library.js");
@@ -30,13 +30,13 @@ app.get("/", (req, res) => {
 
 app.get("/characterinfo", (req, res) => {
   //const characters = req.query;
-  let all = library.getAllCharacters();
+  let all = library.allCharacters();
   console.log(all);
   res.json({ all });
 });
 
 app.get("/name/:characterName", (req, res) => {
-  const characterName = req.params.characterName;
+  const {characterName} = req.params;
   let character = library.getCharacterName(characterName);
   console.log(character);
   res.json({ character });
@@ -45,13 +45,13 @@ app.get("/gender/:characterName", (req, res) => {
   const characterName = req.params.characterName;
   let gender = library.getCharacterGender(characterName);
   console.log(gender);
-  res.json({ gender });
+  res.json({gender});
 });
 
 app.get("/age/:characterName", (req, res) => {
   const age = req.params.characterName;
   let characterAge = library.getCharacterAge(age);
-  res.json({ characterAge });
+  res.json({characterAge});
 });
 
 app.get("/haircolor/:characterName", (req, res) => {
